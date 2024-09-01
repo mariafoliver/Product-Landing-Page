@@ -1,0 +1,33 @@
+@media screen and (max-device-width: 480px) {
+	.iphone {
+		background: #ccc;
+	}
+}
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    position:fixed;
+width:100%;
+top:0;
+left:0;
+}
